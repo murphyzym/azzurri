@@ -1,0 +1,1 @@
+This Shiny app is built to support Italy's FIFA World Cup 2026 participation. The datasets are gathered and intergrated into a fully normalized relational database (3NF) using R and SQL through ETL processes. There are interative features that allowed users to explore match schedules, player statistics, and travel logistics.
