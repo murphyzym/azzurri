@@ -11,16 +11,10 @@ library(shinythemes)
 library(shinyWidgets)
 library(tidyverse)
 
-# connection to the wc_24b_04 database----
-# replace with your server credentials
-con <- dbConnect(
-  drv = dbDriver('Postgres'), 
-  dbname = 'italydb',
-  host = 'db-postgresql-nyc1-44203-do-user-8018943-0.b.db.ondigitalocean.com', 
-  port = 25060,
-  user = 'italy', 
-  password = 'xxxx_xxxxxx-xxxx-xxxxxxx'
-)
+# connection to the  database----
+
+con <- dbConnect()
+# for security issue, the database connection info is deleted.
 
 # champ vector
 champ = c(1934,1938,1982,2006)
